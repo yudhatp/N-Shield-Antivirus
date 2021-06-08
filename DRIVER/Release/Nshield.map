@@ -1,0 +1,83 @@
+ Nshield
+
+ Timestamp is 52ecd644 (Sat Feb 01 18:11:00 2014)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000872H .text                   CODE
+ 0002:00000000 00000068H .idata$5                DATA
+ 0002:00000070 000000e0H .rdata                  DATA
+ 0002:00000150 0000005fH .rdata$debug            DATA
+ 0002:000001b0 00000004H .rdata$sxdata           DATA
+ 0002:000001b8 0000006cH .xdata$x                DATA
+ 0003:00000000 00000004H .data                   DATA
+ 0003:00000004 00000014H .bss                    DATA
+ 0004:00000000 00000028H .idata$2                CODE
+ 0004:00000028 00000014H .idata$3                CODE
+ 0004:0000003c 00000068H .idata$4                CODE
+ 0004:000000a4 0000020cH .idata$6                CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       _IoGetCurrentIrpStackLocation@4 000102a0 f i Nshield.obj
+ 0001:0000000e       _memcpy                    000102ae f   ntoskrnl:ntoskrnl.exe
+ 0001:00000014       _wcsncat                   000102b4 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000020       _DispatchClose@8           000102c0 f   Nshield.obj
+ 0001:00000050       _DispatchCreate@8          000102f0 f   Nshield.obj
+ 0001:00000080       _OpenProcess@12            00010320 f   Nshield.obj
+ 0001:00000130       _GetSystemRoutineAddress@4 000103d0 f   Nshield.obj
+ 0001:000001c0       _ProcessCallback@12        00010460 f   Nshield.obj
+ 0001:00000220       _UnloadDriver@4            000104c0 f   Nshield.obj
+ 0001:000002b0       _GetProcessImageName@8     00010550 f   Nshield.obj
+ 0001:000004f0       _DispatchIoCtl@8           00010790 f   Nshield.obj
+ 0001:000007a0       _DriverEntry@8             00010a40 f   Nshield.obj
+ 0001:0000086c       __except_handler3          00010b0c f   ntoskrnl:ntoskrnl.exe
+ 0002:00000000       __imp__KeGetCurrentIrql@0  00010b20     hal:HAL.dll
+ 0002:00000004       \177HAL_NULL_THUNK_DATA    00010b24     hal:HAL.dll
+ 0002:00000008       __imp__KeClearEvent@4      00010b28     ntoskrnl:ntoskrnl.exe
+ 0002:0000000c       _PsProcessType             00010b2c     ntoskrnl:ntoskrnl.exe
+ 0002:0000000c       __imp__PsProcessType       00010b2c     ntoskrnl:ntoskrnl.exe
+ 0002:00000010       __imp__IoDeleteSymbolicLink@4 00010b30     ntoskrnl:ntoskrnl.exe
+ 0002:00000014       __imp__ExFreePoolWithTag@8 00010b34     ntoskrnl:ntoskrnl.exe
+ 0002:00000018       __imp__PsLookupProcessByProcessId@8 00010b38     ntoskrnl:ntoskrnl.exe
+ 0002:0000001c       __imp__RtlInitUnicodeString@8 00010b3c     ntoskrnl:ntoskrnl.exe
+ 0002:00000020       __imp__IoDeleteDevice@4    00010b40     ntoskrnl:ntoskrnl.exe
+ 0002:00000024       __imp__KeSetEvent@12       00010b44     ntoskrnl:ntoskrnl.exe
+ 0002:00000028       __imp__MmGetSystemRoutineAddress@4 00010b48     ntoskrnl:ntoskrnl.exe
+ 0002:0000002c       __imp__wcsncat             00010b4c     ntoskrnl:ntoskrnl.exe
+ 0002:00000030       __imp__ExAllocatePoolWithTag@12 00010b50     ntoskrnl:ntoskrnl.exe
+ 0002:00000034       __imp__ExEventObjectType   00010b54     ntoskrnl:ntoskrnl.exe
+ 0002:00000034       _ExEventObjectType         00010b54     ntoskrnl:ntoskrnl.exe
+ 0002:00000038       __imp__ZwClose@4           00010b58     ntoskrnl:ntoskrnl.exe
+ 0002:0000003c       __imp_@IofCompleteRequest@8 00010b5c     ntoskrnl:ntoskrnl.exe
+ 0002:00000040       __imp__ObReferenceObjectByHandle@24 00010b60     ntoskrnl:ntoskrnl.exe
+ 0002:00000044       __imp__IoCreateSymbolicLink@8 00010b64     ntoskrnl:ntoskrnl.exe
+ 0002:00000048       __imp__PsGetCurrentProcessId@0 00010b68     ntoskrnl:ntoskrnl.exe
+ 0002:0000004c       __imp_@ObfDereferenceObject@4 00010b6c     ntoskrnl:ntoskrnl.exe
+ 0002:00000050       __imp__IoCreateDevice@28   00010b70     ntoskrnl:ntoskrnl.exe
+ 0002:00000054       __imp__ObOpenObjectByPointer@28 00010b74     ntoskrnl:ntoskrnl.exe
+ 0002:00000058       __imp__PsSetCreateProcessNotifyRoutine@8 00010b78     ntoskrnl:ntoskrnl.exe
+ 0002:0000005c       __imp__memcpy              00010b7c     ntoskrnl:ntoskrnl.exe
+ 0002:00000060       __imp___except_handler3    00010b80     ntoskrnl:ntoskrnl.exe
+ 0002:00000064       \177ntoskrnl_NULL_THUNK_DATA 00010b84     ntoskrnl:ntoskrnl.exe
+ 0002:0000008c       ??_C@_1CI@LPCKBFKB@?$AA?2?$AAD?$AAo?$AAs?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAs?$AA?2?$AAN?$AAS?$AAH?$AAI?$AAE?$AAL?$AAD?$AA?$AA@ 00010bac     Nshield.obj
+ 0002:000000b4       ??_C@_1CA@HCBGJDP@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AAN?$AAS?$AAH?$AAI?$AAE?$AAL?$AAD?$AA?$AA@ 00010bd4     Nshield.obj
+ 0002:000000d4       ??_C@_1DE@MLPIADGK@?$AAZ?$AAw?$AAQ?$AAu?$AAe?$AAr?$AAy?$AAI?$AAn?$AAf?$AAo?$AAr?$AAm?$AAa?$AAt?$AAi?$AAo?$AAn?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 00010bf4     Nshield.obj
+ 0002:00000108       __load_config_used         00010c28     ntoskrnl:loadcfg.obj
+ 0002:000001b0       ___safe_se_handler_table   00010cd0     <linker-defined>
+ 0003:00000000       ___security_cookie         00010d60     ntoskrnl:seccook.obj
+ 0003:00000004       _CreateProcessNotifyRoutineActivated 00010d64     Nshield.obj
+ 0003:00000008       _ZwQueryInformationProcess 00010d68     <common>
+ 0003:0000000c       _ProcessMonitorCallbackInfo 00010d6c     <common>
+ 0003:00000010       _ProcessMonitorEvent       00010d70     <common>
+ 0003:00000014       _HostProcessId             00010d74     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_ntoskrnl 00010d80     ntoskrnl:ntoskrnl.exe
+ 0004:00000014       __IMPORT_DESCRIPTOR_HAL    00010d94     hal:HAL.dll
+ 0004:00000028       __NULL_IMPORT_DESCRIPTOR   00010da8     ntoskrnl:ntoskrnl.exe
+
+ entry point at        0000:00000000
+
+ Static symbols
+
