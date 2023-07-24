@@ -1,10 +1,10 @@
-#N-Shield AntiVirus - Readme File.
+## N-Shield AntiVirus - Readme File.
 
-Program Version  : 2019 - 9.0
-Engine Version	 : 14.0
-Virus Definition : 1.177.456 virus
+	Program Version  : 2019 - 9.0
+	Engine Version	 : 14.0
+	Virus Definition : 1.177.456 virus
 
-#Package information
+## Package information
 Dalam paketan N-Shield AntiVirus versi ini disertakan file berikut :
 
   1. navui.exe 		        -> File executable utama.
@@ -23,7 +23,7 @@ Dalam paketan N-Shield AntiVirus versi ini disertakan file berikut :
  14. quarantine\			-> Folder untuk menyimpan file yang dikarantina.
 
 
-#System Requirement
+## System Requirement
 - Windows XP, 7, Vista, 8, 10 (x86/x64)
 - 2 GB RAM
 - 50 MB Free space
@@ -57,7 +57,7 @@ yang ada. Karena nya, dukungan dan bantuan dari anda dengan cara melaporkan bug 
 dibutuhkan dalam pengembangan kedepannya.
 
 
-#Feature
+## Feature
 Setiap AntiVirus memiliki kelebihannya masing-masing, begitu juga N-Shield AntiVirus.
 Berikut fitur-fitur unggulan yang terdapat pada N-Shield AntiVirus.
 
@@ -86,7 +86,7 @@ keterangan:
 	fitur ini tidak dapat dijalankan dengan baik.
 
 
-#Lisensi
+## Lisensi
 PENTING : baca dengan seksama bagian ketentuan penggunaan ini.
 
 * Memanfaatkan atau menggunakan N-Shield AntiVirus berarti anda mengerti dan setuju
@@ -145,7 +145,7 @@ E. N-Shield Labs tidak berkewajiban untuk harus selalu menyediakan versi baru da
 
 
 
-#Menemukan Bug atau Virus yang tidak terdeteksi?
+## Menemukan Bug atau Virus yang tidak terdeteksi?
 
 Jika anda menemukan bug, anda bisa mengirimkan laporan bug tersebut ke e-mail di nshieldlabs@gmail.com
 atau yudhatp@gmail.com dan harap menyertakan versi Windows yang digunakan, kronologi terjadinya bug juga 
